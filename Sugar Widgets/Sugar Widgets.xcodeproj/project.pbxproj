@@ -1,0 +1,800 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2384AA5828FFAEBF00CDB08E /* Sugar_WidgetsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2384AA5728FFAEBF00CDB08E /* Sugar_WidgetsApp.swift */; };
+		2384AA5A28FFAEBF00CDB08E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2384AA5928FFAEBF00CDB08E /* ContentView.swift */; };
+		2384AA5C28FFAEC000CDB08E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2384AA5B28FFAEC000CDB08E /* Assets.xcassets */; };
+		2384AA6028FFAEC000CDB08E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2384AA5F28FFAEC000CDB08E /* Preview Assets.xcassets */; };
+		2384AA6A28FFAEC000CDB08E /* Sugar_WidgetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2384AA6928FFAEC000CDB08E /* Sugar_WidgetsTests.swift */; };
+		2384AA7428FFAEC000CDB08E /* Sugar_WidgetsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2384AA7328FFAEC000CDB08E /* Sugar_WidgetsUITests.swift */; };
+		2384AA7628FFAEC000CDB08E /* Sugar_WidgetsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2384AA7528FFAEC000CDB08E /* Sugar_WidgetsUITestsLaunchTests.swift */; };
+		2384AA8928FFB18A00CDB08E /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2384AA8828FFB18A00CDB08E /* WidgetKit.framework */; };
+		2384AA8B28FFB18A00CDB08E /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2384AA8A28FFB18A00CDB08E /* SwiftUI.framework */; };
+		2384AA8E28FFB18A00CDB08E /* SugarWidgets_widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2384AA8D28FFB18A00CDB08E /* SugarWidgets_widget.swift */; };
+		2384AA9128FFB18B00CDB08E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2384AA9028FFB18B00CDB08E /* Assets.xcassets */; };
+		2384AA9328FFB18B00CDB08E /* SugarWidgets_widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2384AA8F28FFB18B00CDB08E /* SugarWidgets_widget.intentdefinition */; };
+		2384AA9428FFB18B00CDB08E /* SugarWidgets_widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2384AA8F28FFB18B00CDB08E /* SugarWidgets_widget.intentdefinition */; };
+		2384AA9728FFB18B00CDB08E /* SugarWidgets-widgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2384AA8628FFB18A00CDB08E /* SugarWidgets-widgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2384AA6628FFAEC000CDB08E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2384AA4C28FFAEBF00CDB08E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2384AA5328FFAEBF00CDB08E;
+			remoteInfo = "Sugar Widgets";
+		};
+		2384AA7028FFAEC000CDB08E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2384AA4C28FFAEBF00CDB08E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2384AA5328FFAEBF00CDB08E;
+			remoteInfo = "Sugar Widgets";
+		};
+		2384AA9528FFB18B00CDB08E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2384AA4C28FFAEBF00CDB08E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2384AA8528FFB18A00CDB08E;
+			remoteInfo = "SugarWidgets-widgetExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2384AA9B28FFB18C00CDB08E /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2384AA9728FFB18B00CDB08E /* SugarWidgets-widgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2384AA5428FFAEBF00CDB08E /* Sugar Widgets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sugar Widgets.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2384AA5728FFAEBF00CDB08E /* Sugar_WidgetsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sugar_WidgetsApp.swift; sourceTree = "<group>"; };
+		2384AA5928FFAEBF00CDB08E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2384AA5B28FFAEC000CDB08E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2384AA5D28FFAEC000CDB08E /* Sugar_Widgets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sugar_Widgets.entitlements; sourceTree = "<group>"; };
+		2384AA5F28FFAEC000CDB08E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2384AA6528FFAEC000CDB08E /* Sugar WidgetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sugar WidgetsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2384AA6928FFAEC000CDB08E /* Sugar_WidgetsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sugar_WidgetsTests.swift; sourceTree = "<group>"; };
+		2384AA6F28FFAEC000CDB08E /* Sugar WidgetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sugar WidgetsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2384AA7328FFAEC000CDB08E /* Sugar_WidgetsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sugar_WidgetsUITests.swift; sourceTree = "<group>"; };
+		2384AA7528FFAEC000CDB08E /* Sugar_WidgetsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sugar_WidgetsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2384AA8628FFB18A00CDB08E /* SugarWidgets-widgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SugarWidgets-widgetExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2384AA8828FFB18A00CDB08E /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		2384AA8A28FFB18A00CDB08E /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		2384AA8D28FFB18A00CDB08E /* SugarWidgets_widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SugarWidgets_widget.swift; sourceTree = "<group>"; };
+		2384AA8F28FFB18B00CDB08E /* SugarWidgets_widget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = SugarWidgets_widget.intentdefinition; sourceTree = "<group>"; };
+		2384AA9028FFB18B00CDB08E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2384AA9228FFB18B00CDB08E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2384AA5128FFAEBF00CDB08E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2384AA6228FFAEC000CDB08E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2384AA6C28FFAEC000CDB08E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2384AA8328FFB18A00CDB08E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2384AA8B28FFB18A00CDB08E /* SwiftUI.framework in Frameworks */,
+				2384AA8928FFB18A00CDB08E /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2384AA4B28FFAEBF00CDB08E = {
+			isa = PBXGroup;
+			children = (
+				2384AA5628FFAEBF00CDB08E /* Sugar Widgets */,
+				2384AA6828FFAEC000CDB08E /* Sugar WidgetsTests */,
+				2384AA7228FFAEC000CDB08E /* Sugar WidgetsUITests */,
+				2384AA8C28FFB18A00CDB08E /* SugarWidgets-widget */,
+				2384AA8728FFB18A00CDB08E /* Frameworks */,
+				2384AA5528FFAEBF00CDB08E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2384AA5528FFAEBF00CDB08E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2384AA5428FFAEBF00CDB08E /* Sugar Widgets.app */,
+				2384AA6528FFAEC000CDB08E /* Sugar WidgetsTests.xctest */,
+				2384AA6F28FFAEC000CDB08E /* Sugar WidgetsUITests.xctest */,
+				2384AA8628FFB18A00CDB08E /* SugarWidgets-widgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2384AA5628FFAEBF00CDB08E /* Sugar Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				2384AA5728FFAEBF00CDB08E /* Sugar_WidgetsApp.swift */,
+				2384AA5928FFAEBF00CDB08E /* ContentView.swift */,
+				2384AA5B28FFAEC000CDB08E /* Assets.xcassets */,
+				2384AA5D28FFAEC000CDB08E /* Sugar_Widgets.entitlements */,
+				2384AA5E28FFAEC000CDB08E /* Preview Content */,
+			);
+			path = "Sugar Widgets";
+			sourceTree = "<group>";
+		};
+		2384AA5E28FFAEC000CDB08E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2384AA5F28FFAEC000CDB08E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2384AA6828FFAEC000CDB08E /* Sugar WidgetsTests */ = {
+			isa = PBXGroup;
+			children = (
+				2384AA6928FFAEC000CDB08E /* Sugar_WidgetsTests.swift */,
+			);
+			path = "Sugar WidgetsTests";
+			sourceTree = "<group>";
+		};
+		2384AA7228FFAEC000CDB08E /* Sugar WidgetsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2384AA7328FFAEC000CDB08E /* Sugar_WidgetsUITests.swift */,
+				2384AA7528FFAEC000CDB08E /* Sugar_WidgetsUITestsLaunchTests.swift */,
+			);
+			path = "Sugar WidgetsUITests";
+			sourceTree = "<group>";
+		};
+		2384AA8728FFB18A00CDB08E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2384AA8828FFB18A00CDB08E /* WidgetKit.framework */,
+				2384AA8A28FFB18A00CDB08E /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2384AA8C28FFB18A00CDB08E /* SugarWidgets-widget */ = {
+			isa = PBXGroup;
+			children = (
+				2384AA8D28FFB18A00CDB08E /* SugarWidgets_widget.swift */,
+				2384AA8F28FFB18B00CDB08E /* SugarWidgets_widget.intentdefinition */,
+				2384AA9028FFB18B00CDB08E /* Assets.xcassets */,
+				2384AA9228FFB18B00CDB08E /* Info.plist */,
+			);
+			path = "SugarWidgets-widget";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2384AA5328FFAEBF00CDB08E /* Sugar Widgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2384AA7928FFAEC000CDB08E /* Build configuration list for PBXNativeTarget "Sugar Widgets" */;
+			buildPhases = (
+				2384AA5028FFAEBF00CDB08E /* Sources */,
+				2384AA5128FFAEBF00CDB08E /* Frameworks */,
+				2384AA5228FFAEBF00CDB08E /* Resources */,
+				2384AA9B28FFB18C00CDB08E /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2384AA9628FFB18B00CDB08E /* PBXTargetDependency */,
+			);
+			name = "Sugar Widgets";
+			productName = "Sugar Widgets";
+			productReference = 2384AA5428FFAEBF00CDB08E /* Sugar Widgets.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2384AA6428FFAEC000CDB08E /* Sugar WidgetsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2384AA7C28FFAEC000CDB08E /* Build configuration list for PBXNativeTarget "Sugar WidgetsTests" */;
+			buildPhases = (
+				2384AA6128FFAEC000CDB08E /* Sources */,
+				2384AA6228FFAEC000CDB08E /* Frameworks */,
+				2384AA6328FFAEC000CDB08E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2384AA6728FFAEC000CDB08E /* PBXTargetDependency */,
+			);
+			name = "Sugar WidgetsTests";
+			productName = "Sugar WidgetsTests";
+			productReference = 2384AA6528FFAEC000CDB08E /* Sugar WidgetsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2384AA6E28FFAEC000CDB08E /* Sugar WidgetsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2384AA7F28FFAEC000CDB08E /* Build configuration list for PBXNativeTarget "Sugar WidgetsUITests" */;
+			buildPhases = (
+				2384AA6B28FFAEC000CDB08E /* Sources */,
+				2384AA6C28FFAEC000CDB08E /* Frameworks */,
+				2384AA6D28FFAEC000CDB08E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2384AA7128FFAEC000CDB08E /* PBXTargetDependency */,
+			);
+			name = "Sugar WidgetsUITests";
+			productName = "Sugar WidgetsUITests";
+			productReference = 2384AA6F28FFAEC000CDB08E /* Sugar WidgetsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		2384AA8528FFB18A00CDB08E /* SugarWidgets-widgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2384AA9828FFB18C00CDB08E /* Build configuration list for PBXNativeTarget "SugarWidgets-widgetExtension" */;
+			buildPhases = (
+				2384AA8228FFB18A00CDB08E /* Sources */,
+				2384AA8328FFB18A00CDB08E /* Frameworks */,
+				2384AA8428FFB18A00CDB08E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SugarWidgets-widgetExtension";
+			productName = "SugarWidgets-widgetExtension";
+			productReference = 2384AA8628FFB18A00CDB08E /* SugarWidgets-widgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2384AA4C28FFAEBF00CDB08E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					2384AA5328FFAEBF00CDB08E = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					2384AA6428FFAEC000CDB08E = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 2384AA5328FFAEBF00CDB08E;
+					};
+					2384AA6E28FFAEC000CDB08E = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 2384AA5328FFAEBF00CDB08E;
+					};
+					2384AA8528FFB18A00CDB08E = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 2384AA4F28FFAEBF00CDB08E /* Build configuration list for PBXProject "Sugar Widgets" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2384AA4B28FFAEBF00CDB08E;
+			productRefGroup = 2384AA5528FFAEBF00CDB08E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2384AA5328FFAEBF00CDB08E /* Sugar Widgets */,
+				2384AA6428FFAEC000CDB08E /* Sugar WidgetsTests */,
+				2384AA6E28FFAEC000CDB08E /* Sugar WidgetsUITests */,
+				2384AA8528FFB18A00CDB08E /* SugarWidgets-widgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2384AA5228FFAEBF00CDB08E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2384AA6028FFAEC000CDB08E /* Preview Assets.xcassets in Resources */,
+				2384AA5C28FFAEC000CDB08E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2384AA6328FFAEC000CDB08E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2384AA6D28FFAEC000CDB08E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2384AA8428FFB18A00CDB08E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2384AA9128FFB18B00CDB08E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2384AA5028FFAEBF00CDB08E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2384AA5A28FFAEBF00CDB08E /* ContentView.swift in Sources */,
+				2384AA5828FFAEBF00CDB08E /* Sugar_WidgetsApp.swift in Sources */,
+				2384AA9428FFB18B00CDB08E /* SugarWidgets_widget.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2384AA6128FFAEC000CDB08E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2384AA6A28FFAEC000CDB08E /* Sugar_WidgetsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2384AA6B28FFAEC000CDB08E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2384AA7428FFAEC000CDB08E /* Sugar_WidgetsUITests.swift in Sources */,
+				2384AA7628FFAEC000CDB08E /* Sugar_WidgetsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2384AA8228FFB18A00CDB08E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2384AA8E28FFB18A00CDB08E /* SugarWidgets_widget.swift in Sources */,
+				2384AA9328FFB18B00CDB08E /* SugarWidgets_widget.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2384AA6728FFAEC000CDB08E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2384AA5328FFAEBF00CDB08E /* Sugar Widgets */;
+			targetProxy = 2384AA6628FFAEC000CDB08E /* PBXContainerItemProxy */;
+		};
+		2384AA7128FFAEC000CDB08E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2384AA5328FFAEBF00CDB08E /* Sugar Widgets */;
+			targetProxy = 2384AA7028FFAEC000CDB08E /* PBXContainerItemProxy */;
+		};
+		2384AA9628FFB18B00CDB08E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2384AA8528FFB18A00CDB08E /* SugarWidgets-widgetExtension */;
+			targetProxy = 2384AA9528FFB18B00CDB08E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2384AA7728FFAEC000CDB08E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2384AA7828FFAEC000CDB08E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2384AA7A28FFAEC000CDB08E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Sugar Widgets/Sugar_Widgets.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sugar Widgets/Preview Content\"";
+				DEVELOPMENT_TEAM = M76XPCB6WQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "truman.Sugar-Widgets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2384AA7B28FFAEC000CDB08E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Sugar Widgets/Sugar_Widgets.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sugar Widgets/Preview Content\"";
+				DEVELOPMENT_TEAM = M76XPCB6WQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "truman.Sugar-Widgets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2384AA7D28FFAEC000CDB08E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M76XPCB6WQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "truman.Sugar-WidgetsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sugar Widgets.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sugar Widgets";
+			};
+			name = Debug;
+		};
+		2384AA7E28FFAEC000CDB08E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M76XPCB6WQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "truman.Sugar-WidgetsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sugar Widgets.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sugar Widgets";
+			};
+			name = Release;
+		};
+		2384AA8028FFAEC000CDB08E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M76XPCB6WQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "truman.Sugar-WidgetsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sugar Widgets";
+			};
+			name = Debug;
+		};
+		2384AA8128FFAEC000CDB08E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M76XPCB6WQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "truman.Sugar-WidgetsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sugar Widgets";
+			};
+			name = Release;
+		};
+		2384AA9928FFB18C00CDB08E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M76XPCB6WQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SugarWidgets-widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SugarWidgets-widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "truman.Sugar-Widgets.SugarWidgets-widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2384AA9A28FFB18C00CDB08E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M76XPCB6WQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SugarWidgets-widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SugarWidgets-widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "truman.Sugar-Widgets.SugarWidgets-widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2384AA4F28FFAEBF00CDB08E /* Build configuration list for PBXProject "Sugar Widgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2384AA7728FFAEC000CDB08E /* Debug */,
+				2384AA7828FFAEC000CDB08E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2384AA7928FFAEC000CDB08E /* Build configuration list for PBXNativeTarget "Sugar Widgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2384AA7A28FFAEC000CDB08E /* Debug */,
+				2384AA7B28FFAEC000CDB08E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2384AA7C28FFAEC000CDB08E /* Build configuration list for PBXNativeTarget "Sugar WidgetsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2384AA7D28FFAEC000CDB08E /* Debug */,
+				2384AA7E28FFAEC000CDB08E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2384AA7F28FFAEC000CDB08E /* Build configuration list for PBXNativeTarget "Sugar WidgetsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2384AA8028FFAEC000CDB08E /* Debug */,
+				2384AA8128FFAEC000CDB08E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2384AA9828FFB18C00CDB08E /* Build configuration list for PBXNativeTarget "SugarWidgets-widgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2384AA9928FFB18C00CDB08E /* Debug */,
+				2384AA9A28FFB18C00CDB08E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2384AA4C28FFAEBF00CDB08E /* Project object */;
+}
