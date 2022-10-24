@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2301477328FFD9CE00CAD9AD /* WatchAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2301477228FFD9CE00CAD9AD /* WatchAppApp.swift */; };
+		2301477528FFD9CE00CAD9AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2301477428FFD9CE00CAD9AD /* ContentView.swift */; };
+		2301477728FFD9CF00CAD9AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2301477628FFD9CF00CAD9AD /* Assets.xcassets */; };
+		2301477A28FFD9CF00CAD9AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2301477928FFD9CF00CAD9AD /* Preview Assets.xcassets */; };
+		2301478328FFD9E700CAD9AD /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2384AA8828FFB18A00CDB08E /* WidgetKit.framework */; };
+		2301478428FFD9E700CAD9AD /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2384AA8A28FFB18A00CDB08E /* SwiftUI.framework */; };
+		2301478728FFD9E700CAD9AD /* WatchWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2301478628FFD9E700CAD9AD /* WatchWidget.swift */; };
+		2301478928FFD9E800CAD9AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2301478828FFD9E800CAD9AD /* Assets.xcassets */; };
+		2301478D28FFD9E800CAD9AD /* WatchWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2301478228FFD9E700CAD9AD /* WatchWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		230ABF8828FFE15E008BD1E7 /* LatestGlucoseValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230ABF8728FFE15E008BD1E7 /* LatestGlucoseValues.swift */; };
+		230ABF8928FFE165008BD1E7 /* LatestGlucoseValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230ABF8728FFE15E008BD1E7 /* LatestGlucoseValues.swift */; };
+		230ABF8A28FFE165008BD1E7 /* LatestGlucoseValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230ABF8728FFE15E008BD1E7 /* LatestGlucoseValues.swift */; };
+		230ABF8B28FFE166008BD1E7 /* LatestGlucoseValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230ABF8728FFE15E008BD1E7 /* LatestGlucoseValues.swift */; };
+		230ABF8D28FFE1C9008BD1E7 /* DexcomService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230ABF8C28FFE1C9008BD1E7 /* DexcomService.swift */; };
+		230ABF8E28FFE1CB008BD1E7 /* DexcomService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230ABF8C28FFE1C9008BD1E7 /* DexcomService.swift */; };
+		230ABF8F28FFE1CC008BD1E7 /* DexcomService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230ABF8C28FFE1C9008BD1E7 /* DexcomService.swift */; };
+		230ABF9028FFE1CD008BD1E7 /* DexcomService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230ABF8C28FFE1C9008BD1E7 /* DexcomService.swift */; };
 		2384AA5828FFAEBF00CDB08E /* Sugar_WidgetsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2384AA5728FFAEBF00CDB08E /* Sugar_WidgetsApp.swift */; };
 		2384AA5A28FFAEBF00CDB08E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2384AA5928FFAEBF00CDB08E /* ContentView.swift */; };
 		2384AA5C28FFAEC000CDB08E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2384AA5B28FFAEC000CDB08E /* Assets.xcassets */; };
 		2384AA6028FFAEC000CDB08E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2384AA5F28FFAEC000CDB08E /* Preview Assets.xcassets */; };
-		2384AA6A28FFAEC000CDB08E /* Sugar_WidgetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2384AA6928FFAEC000CDB08E /* Sugar_WidgetsTests.swift */; };
-		2384AA7428FFAEC000CDB08E /* Sugar_WidgetsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2384AA7328FFAEC000CDB08E /* Sugar_WidgetsUITests.swift */; };
-		2384AA7628FFAEC000CDB08E /* Sugar_WidgetsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2384AA7528FFAEC000CDB08E /* Sugar_WidgetsUITestsLaunchTests.swift */; };
 		2384AA8928FFB18A00CDB08E /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2384AA8828FFB18A00CDB08E /* WidgetKit.framework */; };
 		2384AA8B28FFB18A00CDB08E /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2384AA8A28FFB18A00CDB08E /* SwiftUI.framework */; };
 		2384AA8E28FFB18A00CDB08E /* SugarWidgets_widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2384AA8D28FFB18A00CDB08E /* SugarWidgets_widget.swift */; };
@@ -24,19 +38,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2384AA6628FFAEC000CDB08E /* PBXContainerItemProxy */ = {
+		2301478B28FFD9E800CAD9AD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2384AA4C28FFAEBF00CDB08E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2384AA5328FFAEBF00CDB08E;
-			remoteInfo = "Sugar Widgets";
-		};
-		2384AA7028FFAEC000CDB08E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2384AA4C28FFAEBF00CDB08E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2384AA5328FFAEBF00CDB08E;
-			remoteInfo = "Sugar Widgets";
+			remoteGlobalIDString = 2301478128FFD9E600CAD9AD;
+			remoteInfo = WatchWidgetExtension;
 		};
 		2384AA9528FFB18B00CDB08E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -48,6 +55,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		2301479128FFD9E800CAD9AD /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2301478D28FFD9E800CAD9AD /* WatchWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2384AA9B28FFB18C00CDB08E /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -59,20 +77,36 @@
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2384AAC828FFD69700CDB08E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2301477028FFD9CE00CAD9AD /* SugarWidgets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SugarWidgets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2301477228FFD9CE00CAD9AD /* WatchAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchAppApp.swift; sourceTree = "<group>"; };
+		2301477428FFD9CE00CAD9AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2301477628FFD9CF00CAD9AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2301477928FFD9CF00CAD9AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2301478228FFD9E700CAD9AD /* WatchWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WatchWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2301478628FFD9E700CAD9AD /* WatchWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchWidget.swift; sourceTree = "<group>"; };
+		2301478828FFD9E800CAD9AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2301478A28FFD9E800CAD9AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		230ABF8728FFE15E008BD1E7 /* LatestGlucoseValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatestGlucoseValues.swift; sourceTree = "<group>"; };
+		230ABF8C28FFE1C9008BD1E7 /* DexcomService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DexcomService.swift; sourceTree = "<group>"; };
 		2384AA5428FFAEBF00CDB08E /* Sugar Widgets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sugar Widgets.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2384AA5728FFAEBF00CDB08E /* Sugar_WidgetsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sugar_WidgetsApp.swift; sourceTree = "<group>"; };
 		2384AA5928FFAEBF00CDB08E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2384AA5B28FFAEC000CDB08E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2384AA5D28FFAEC000CDB08E /* Sugar_Widgets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sugar_Widgets.entitlements; sourceTree = "<group>"; };
 		2384AA5F28FFAEC000CDB08E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2384AA6528FFAEC000CDB08E /* Sugar WidgetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sugar WidgetsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2384AA6928FFAEC000CDB08E /* Sugar_WidgetsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sugar_WidgetsTests.swift; sourceTree = "<group>"; };
-		2384AA6F28FFAEC000CDB08E /* Sugar WidgetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sugar WidgetsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2384AA7328FFAEC000CDB08E /* Sugar_WidgetsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sugar_WidgetsUITests.swift; sourceTree = "<group>"; };
-		2384AA7528FFAEC000CDB08E /* Sugar_WidgetsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sugar_WidgetsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2384AA8628FFB18A00CDB08E /* SugarWidgets-widgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SugarWidgets-widgetExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2384AA8828FFB18A00CDB08E /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		2384AA8A28FFB18A00CDB08E /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
@@ -83,21 +117,23 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2301476D28FFD9CE00CAD9AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2301477F28FFD9E600CAD9AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2301478428FFD9E700CAD9AD /* SwiftUI.framework in Frameworks */,
+				2301478328FFD9E700CAD9AD /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2384AA5128FFAEBF00CDB08E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2384AA6228FFAEC000CDB08E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2384AA6C28FFAEC000CDB08E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -116,13 +152,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2301477128FFD9CE00CAD9AD /* WatchApp Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				2301477228FFD9CE00CAD9AD /* WatchAppApp.swift */,
+				2301477428FFD9CE00CAD9AD /* ContentView.swift */,
+				2301477628FFD9CF00CAD9AD /* Assets.xcassets */,
+				2301477828FFD9CF00CAD9AD /* Preview Content */,
+			);
+			path = "WatchApp Watch App";
+			sourceTree = "<group>";
+		};
+		2301477828FFD9CF00CAD9AD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2301477928FFD9CF00CAD9AD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2301478528FFD9E700CAD9AD /* WatchWidget */ = {
+			isa = PBXGroup;
+			children = (
+				2301478628FFD9E700CAD9AD /* WatchWidget.swift */,
+				2301478828FFD9E800CAD9AD /* Assets.xcassets */,
+				2301478A28FFD9E800CAD9AD /* Info.plist */,
+			);
+			path = WatchWidget;
+			sourceTree = "<group>";
+		};
 		2384AA4B28FFAEBF00CDB08E = {
 			isa = PBXGroup;
 			children = (
 				2384AA5628FFAEBF00CDB08E /* Sugar Widgets */,
-				2384AA6828FFAEC000CDB08E /* Sugar WidgetsTests */,
-				2384AA7228FFAEC000CDB08E /* Sugar WidgetsUITests */,
 				2384AA8C28FFB18A00CDB08E /* SugarWidgets-widget */,
+				2301477128FFD9CE00CAD9AD /* WatchApp Watch App */,
+				2301478528FFD9E700CAD9AD /* WatchWidget */,
 				2384AA8728FFB18A00CDB08E /* Frameworks */,
 				2384AA5528FFAEBF00CDB08E /* Products */,
 			);
@@ -132,9 +197,9 @@
 			isa = PBXGroup;
 			children = (
 				2384AA5428FFAEBF00CDB08E /* Sugar Widgets.app */,
-				2384AA6528FFAEC000CDB08E /* Sugar WidgetsTests.xctest */,
-				2384AA6F28FFAEC000CDB08E /* Sugar WidgetsUITests.xctest */,
 				2384AA8628FFB18A00CDB08E /* SugarWidgets-widgetExtension.appex */,
+				2301477028FFD9CE00CAD9AD /* SugarWidgets.app */,
+				2301478228FFD9E700CAD9AD /* WatchWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -147,6 +212,8 @@
 				2384AA5B28FFAEC000CDB08E /* Assets.xcassets */,
 				2384AA5D28FFAEC000CDB08E /* Sugar_Widgets.entitlements */,
 				2384AA5E28FFAEC000CDB08E /* Preview Content */,
+				230ABF8728FFE15E008BD1E7 /* LatestGlucoseValues.swift */,
+				230ABF8C28FFE1C9008BD1E7 /* DexcomService.swift */,
 			);
 			path = "Sugar Widgets";
 			sourceTree = "<group>";
@@ -157,23 +224,6 @@
 				2384AA5F28FFAEC000CDB08E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		2384AA6828FFAEC000CDB08E /* Sugar WidgetsTests */ = {
-			isa = PBXGroup;
-			children = (
-				2384AA6928FFAEC000CDB08E /* Sugar_WidgetsTests.swift */,
-			);
-			path = "Sugar WidgetsTests";
-			sourceTree = "<group>";
-		};
-		2384AA7228FFAEC000CDB08E /* Sugar WidgetsUITests */ = {
-			isa = PBXGroup;
-			children = (
-				2384AA7328FFAEC000CDB08E /* Sugar_WidgetsUITests.swift */,
-				2384AA7528FFAEC000CDB08E /* Sugar_WidgetsUITestsLaunchTests.swift */,
-			);
-			path = "Sugar WidgetsUITests";
 			sourceTree = "<group>";
 		};
 		2384AA8728FFB18A00CDB08E /* Frameworks */ = {
@@ -199,6 +249,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2301476F28FFD9CE00CAD9AD /* WatchApp Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2301477D28FFD9CF00CAD9AD /* Build configuration list for PBXNativeTarget "WatchApp Watch App" */;
+			buildPhases = (
+				2301476C28FFD9CE00CAD9AD /* Sources */,
+				2301476D28FFD9CE00CAD9AD /* Frameworks */,
+				2301476E28FFD9CE00CAD9AD /* Resources */,
+				2301479128FFD9E800CAD9AD /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2301478C28FFD9E800CAD9AD /* PBXTargetDependency */,
+			);
+			name = "WatchApp Watch App";
+			productName = "WatchApp Watch App";
+			productReference = 2301477028FFD9CE00CAD9AD /* SugarWidgets.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2301478128FFD9E600CAD9AD /* WatchWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2301478E28FFD9E800CAD9AD /* Build configuration list for PBXNativeTarget "WatchWidgetExtension" */;
+			buildPhases = (
+				2301477E28FFD9E600CAD9AD /* Sources */,
+				2301477F28FFD9E600CAD9AD /* Frameworks */,
+				2301478028FFD9E600CAD9AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WatchWidgetExtension;
+			productName = WatchWidgetExtension;
+			productReference = 2301478228FFD9E700CAD9AD /* WatchWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		2384AA5328FFAEBF00CDB08E /* Sugar Widgets */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2384AA7928FFAEC000CDB08E /* Build configuration list for PBXNativeTarget "Sugar Widgets" */;
@@ -207,6 +293,7 @@
 				2384AA5128FFAEBF00CDB08E /* Frameworks */,
 				2384AA5228FFAEBF00CDB08E /* Resources */,
 				2384AA9B28FFB18C00CDB08E /* Embed Foundation Extensions */,
+				2384AAC828FFD69700CDB08E /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
@@ -217,42 +304,6 @@
 			productName = "Sugar Widgets";
 			productReference = 2384AA5428FFAEBF00CDB08E /* Sugar Widgets.app */;
 			productType = "com.apple.product-type.application";
-		};
-		2384AA6428FFAEC000CDB08E /* Sugar WidgetsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2384AA7C28FFAEC000CDB08E /* Build configuration list for PBXNativeTarget "Sugar WidgetsTests" */;
-			buildPhases = (
-				2384AA6128FFAEC000CDB08E /* Sources */,
-				2384AA6228FFAEC000CDB08E /* Frameworks */,
-				2384AA6328FFAEC000CDB08E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2384AA6728FFAEC000CDB08E /* PBXTargetDependency */,
-			);
-			name = "Sugar WidgetsTests";
-			productName = "Sugar WidgetsTests";
-			productReference = 2384AA6528FFAEC000CDB08E /* Sugar WidgetsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		2384AA6E28FFAEC000CDB08E /* Sugar WidgetsUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2384AA7F28FFAEC000CDB08E /* Build configuration list for PBXNativeTarget "Sugar WidgetsUITests" */;
-			buildPhases = (
-				2384AA6B28FFAEC000CDB08E /* Sources */,
-				2384AA6C28FFAEC000CDB08E /* Frameworks */,
-				2384AA6D28FFAEC000CDB08E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2384AA7128FFAEC000CDB08E /* PBXTargetDependency */,
-			);
-			name = "Sugar WidgetsUITests";
-			productName = "Sugar WidgetsUITests";
-			productReference = 2384AA6F28FFAEC000CDB08E /* Sugar WidgetsUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		2384AA8528FFB18A00CDB08E /* SugarWidgets-widgetExtension */ = {
 			isa = PBXNativeTarget;
@@ -281,16 +332,14 @@
 				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
+					2301476F28FFD9CE00CAD9AD = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					2301478128FFD9E600CAD9AD = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
 					2384AA5328FFAEBF00CDB08E = {
 						CreatedOnToolsVersion = 14.0.1;
-					};
-					2384AA6428FFAEC000CDB08E = {
-						CreatedOnToolsVersion = 14.0.1;
-						TestTargetID = 2384AA5328FFAEBF00CDB08E;
-					};
-					2384AA6E28FFAEC000CDB08E = {
-						CreatedOnToolsVersion = 14.0.1;
-						TestTargetID = 2384AA5328FFAEBF00CDB08E;
 					};
 					2384AA8528FFB18A00CDB08E = {
 						CreatedOnToolsVersion = 14.0.1;
@@ -311,34 +360,37 @@
 			projectRoot = "";
 			targets = (
 				2384AA5328FFAEBF00CDB08E /* Sugar Widgets */,
-				2384AA6428FFAEC000CDB08E /* Sugar WidgetsTests */,
-				2384AA6E28FFAEC000CDB08E /* Sugar WidgetsUITests */,
 				2384AA8528FFB18A00CDB08E /* SugarWidgets-widgetExtension */,
+				2301476F28FFD9CE00CAD9AD /* WatchApp Watch App */,
+				2301478128FFD9E600CAD9AD /* WatchWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2301476E28FFD9CE00CAD9AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2301477A28FFD9CF00CAD9AD /* Preview Assets.xcassets in Resources */,
+				2301477728FFD9CF00CAD9AD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2301478028FFD9E600CAD9AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2301478928FFD9E800CAD9AD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2384AA5228FFAEBF00CDB08E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2384AA6028FFAEC000CDB08E /* Preview Assets.xcassets in Resources */,
 				2384AA5C28FFAEC000CDB08E /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2384AA6328FFAEC000CDB08E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2384AA6D28FFAEC000CDB08E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +405,27 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2301476C28FFD9CE00CAD9AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2301477528FFD9CE00CAD9AD /* ContentView.swift in Sources */,
+				230ABF8A28FFE165008BD1E7 /* LatestGlucoseValues.swift in Sources */,
+				2301477328FFD9CE00CAD9AD /* WatchAppApp.swift in Sources */,
+				230ABF8F28FFE1CC008BD1E7 /* DexcomService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2301477E28FFD9E600CAD9AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2301478728FFD9E700CAD9AD /* WatchWidget.swift in Sources */,
+				230ABF9028FFE1CD008BD1E7 /* DexcomService.swift in Sources */,
+				230ABF8B28FFE166008BD1E7 /* LatestGlucoseValues.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2384AA5028FFAEBF00CDB08E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -360,23 +433,8 @@
 				2384AA5A28FFAEBF00CDB08E /* ContentView.swift in Sources */,
 				2384AA5828FFAEBF00CDB08E /* Sugar_WidgetsApp.swift in Sources */,
 				2384AA9428FFB18B00CDB08E /* SugarWidgets_widget.intentdefinition in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2384AA6128FFAEC000CDB08E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2384AA6A28FFAEC000CDB08E /* Sugar_WidgetsTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2384AA6B28FFAEC000CDB08E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2384AA7428FFAEC000CDB08E /* Sugar_WidgetsUITests.swift in Sources */,
-				2384AA7628FFAEC000CDB08E /* Sugar_WidgetsUITestsLaunchTests.swift in Sources */,
+				230ABF8828FFE15E008BD1E7 /* LatestGlucoseValues.swift in Sources */,
+				230ABF8D28FFE1C9008BD1E7 /* DexcomService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,22 +443,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				2384AA8E28FFB18A00CDB08E /* SugarWidgets_widget.swift in Sources */,
+				230ABF8928FFE165008BD1E7 /* LatestGlucoseValues.swift in Sources */,
 				2384AA9328FFB18B00CDB08E /* SugarWidgets_widget.intentdefinition in Sources */,
+				230ABF8E28FFE1CB008BD1E7 /* DexcomService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2384AA6728FFAEC000CDB08E /* PBXTargetDependency */ = {
+		2301478C28FFD9E800CAD9AD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2384AA5328FFAEBF00CDB08E /* Sugar Widgets */;
-			targetProxy = 2384AA6628FFAEC000CDB08E /* PBXContainerItemProxy */;
-		};
-		2384AA7128FFAEC000CDB08E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2384AA5328FFAEBF00CDB08E /* Sugar Widgets */;
-			targetProxy = 2384AA7028FFAEC000CDB08E /* PBXContainerItemProxy */;
+			target = 2301478128FFD9E600CAD9AD /* WatchWidgetExtension */;
+			targetProxy = 2301478B28FFD9E800CAD9AD /* PBXContainerItemProxy */;
 		};
 		2384AA9628FFB18B00CDB08E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -410,6 +465,128 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		2301477B28FFD9CF00CAD9AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchApp Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 7P284QZ7XV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.truman.Sugar-Widgets.watchkitapp";
+				PRODUCT_NAME = SugarWidgets;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.7;
+			};
+			name = Debug;
+		};
+		2301477C28FFD9CF00CAD9AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchApp Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 7P284QZ7XV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.truman.Sugar-Widgets.watchkitapp";
+				PRODUCT_NAME = SugarWidgets;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.7;
+			};
+			name = Release;
+		};
+		2301478F28FFD9E800CAD9AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7P284QZ7XV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WatchWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Glucose Tracker";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.truman.Sugar-Widgets.watchkitapp.WatchWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		2301479028FFD9E800CAD9AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7P284QZ7XV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WatchWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Glucose Tracker";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.truman.Sugar-Widgets.watchkitapp.WatchWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
 		2384AA7728FFAEC000CDB08E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -529,7 +706,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Sugar Widgets/Preview Content\"";
-				DEVELOPMENT_TEAM = M76XPCB6WQ;
+				DEVELOPMENT_TEAM = 7P284QZ7XV;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -548,10 +725,12 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "truman.Sugar-Widgets";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.truman.Sugar-Widgets";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -568,7 +747,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Sugar Widgets/Preview Content\"";
-				DEVELOPMENT_TEAM = M76XPCB6WQ;
+				DEVELOPMENT_TEAM = 7P284QZ7XV;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -587,103 +766,15 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "truman.Sugar-Widgets";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.truman.Sugar-Widgets";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		2384AA7D28FFAEC000CDB08E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M76XPCB6WQ;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "truman.Sugar-WidgetsTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sugar Widgets.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sugar Widgets";
-			};
-			name = Debug;
-		};
-		2384AA7E28FFAEC000CDB08E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M76XPCB6WQ;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "truman.Sugar-WidgetsTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sugar Widgets.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sugar Widgets";
-			};
-			name = Release;
-		};
-		2384AA8028FFAEC000CDB08E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M76XPCB6WQ;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "truman.Sugar-WidgetsUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Sugar Widgets";
-			};
-			name = Debug;
-		};
-		2384AA8128FFAEC000CDB08E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M76XPCB6WQ;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "truman.Sugar-WidgetsUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Sugar Widgets";
 			};
 			name = Release;
 		};
@@ -694,7 +785,7 @@
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M76XPCB6WQ;
+				DEVELOPMENT_TEAM = 7P284QZ7XV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "SugarWidgets-widget/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "SugarWidgets-widget";
@@ -706,7 +797,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "truman.Sugar-Widgets.SugarWidgets-widget";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.truman.Sugar-Widgets.widget";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -723,7 +814,7 @@
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M76XPCB6WQ;
+				DEVELOPMENT_TEAM = 7P284QZ7XV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "SugarWidgets-widget/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "SugarWidgets-widget";
@@ -735,7 +826,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "truman.Sugar-Widgets.SugarWidgets-widget";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.truman.Sugar-Widgets.widget";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -749,6 +840,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2301477D28FFD9CF00CAD9AD /* Build configuration list for PBXNativeTarget "WatchApp Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2301477B28FFD9CF00CAD9AD /* Debug */,
+				2301477C28FFD9CF00CAD9AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2301478E28FFD9E800CAD9AD /* Build configuration list for PBXNativeTarget "WatchWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2301478F28FFD9E800CAD9AD /* Debug */,
+				2301479028FFD9E800CAD9AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2384AA4F28FFAEBF00CDB08E /* Build configuration list for PBXProject "Sugar Widgets" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -763,24 +872,6 @@
 			buildConfigurations = (
 				2384AA7A28FFAEC000CDB08E /* Debug */,
 				2384AA7B28FFAEC000CDB08E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2384AA7C28FFAEC000CDB08E /* Build configuration list for PBXNativeTarget "Sugar WidgetsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2384AA7D28FFAEC000CDB08E /* Debug */,
-				2384AA7E28FFAEC000CDB08E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2384AA7F28FFAEC000CDB08E /* Build configuration list for PBXNativeTarget "Sugar WidgetsUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2384AA8028FFAEC000CDB08E /* Debug */,
-				2384AA8128FFAEC000CDB08E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

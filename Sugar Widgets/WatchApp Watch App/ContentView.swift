@@ -1,17 +1,16 @@
 //
 //  ContentView.swift
-//  Sugar Widgets
+//  WatchApp Watch App
 //
-//  Created by Christopher Truman on 10/18/22.
+//  Created by Christopher Truman on 10/19/22.
 //
 
 import SwiftUI
 
 struct ContentView: View {
-    @State var bloodSugar = 0
-    @State var trend = ""
-    @Environment(\.scenePhase) var scenePhase
-
+    
+    @State var bloodSugar: Int
+    @State var trend: String
     var body: some View {
         VStack {
             Image(systemName: "hand.wave")
@@ -23,17 +22,12 @@ struct ContentView: View {
                 .font(.largeTitle)
                 .bold()
                 .animation(.easeIn)
-                Text("Trend: \(trend)")
-                    .font(.title)
-                    .animation(.easeIn)
+            Text("Trend: \(trend)")
+                .font(.title)
+                .animation(.easeIn)
         }
         .padding()
         .onAppear(perform: { onAppear() })
-        .onChange(of: scenePhase) { phase in
-            if phase == .active {
-                onAppear()
-            }
-        }
     }
     
     func onAppear() {
@@ -46,6 +40,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(bloodSugar: 120, trend: LatestGlucoseValues.TrendDirections.DoubleUp.arrow)
     }
 }
