@@ -11,7 +11,7 @@ import SwiftUI
 struct Sugar_WidgetsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView(bloodSugar: 0, trend: "")
+            ContentView()
         }
     }
 }

@@ -12,7 +12,13 @@ struct ContentView: View {
     @State var trend: String?
     @State var dateString: String?
     @Environment(\.scenePhase) var scenePhase
+    
+    @Binding var isPresented: Bool
 
+    init(isPresented: Binding<Bool> = .constant(false)) {
+            _isPresented = isPresented
+    }
+    
     var body: some View {
         VStack {
 //            Image(systemName:"hand.wave")
@@ -42,6 +48,9 @@ struct ContentView: View {
         }
         .padding()
         .onAppear(perform: { onAppear() })
+        .popover(isPresented: $isPresented, content: {
+            Text("Login")
+        })
     }
     
     func onAppear() {

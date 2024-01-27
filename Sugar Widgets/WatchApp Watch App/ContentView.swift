@@ -46,7 +46,7 @@ struct ContentView: View {
     
     func onAppear() {
         DexcomService.shared.onAppear(completion: { value, direction, date in
-            trend = "\(direction.arrow), \(direction.trendDiscriptions.capitalized)"
+            trend = "\(direction.arrow) \(direction.trendDiscriptions.capitalized)"
             bloodSugar = value
             
             let formatter = RelativeDateTimeFormatter()

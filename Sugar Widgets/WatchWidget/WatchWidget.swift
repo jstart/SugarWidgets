@@ -68,12 +68,14 @@ struct SugarWidgets_watchEntryView : View {
     var entry: Provider.Entry
     
     var body: some View {
-        if let trend = entry.trend {
-            Text("\(trend) \(entry.value)")
-                .font(.largeTitle)
-        } else {
-            Text("\(entry.value)")
-                .font(.largeTitle)
+        TimelineView(.everyMinute) { _ in
+            if let trend = entry.trend {
+                Text("\(trend) \(entry.value)")
+                    .font(.largeTitle)
+            } else {
+                Text("\(entry.value)")
+                    .font(.largeTitle)
+            }
         }
     }
 }
