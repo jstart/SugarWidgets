@@ -11,11 +11,11 @@ import Intents
 
 struct Provider: IntentTimelineProvider {
     func placeholder(in context: Context) -> SimpleEntry {
-        SimpleEntry(value: 120, trend: LatestGlucoseValues.TrendDirections.DoubleUp.arrow, configuration: ConfigurationIntent())
+        SimpleEntry(value: 0, trend: LatestGlucoseValues.TrendDirections.DoubleUp.arrow, configuration: ConfigurationIntent())
     }
 
     func getSnapshot(for configuration: ConfigurationIntent, in context: Context, completion: @escaping (SimpleEntry) -> ()) {
-        DexcomService().onAppear(completion: { bloodSugar, direction in
+        DexcomService.shared.onAppear(completion: { bloodSugar, direction, date in
             var trend = ""
             switch context.family {
             case .systemSmall, .accessoryCircular:
@@ -31,8 +31,7 @@ struct Provider: IntentTimelineProvider {
     }
 
     func getTimeline(for configuration: ConfigurationIntent, in context: Context, completion: @escaping (Timeline<Entry>) -> ()) {
-
-        DexcomService().onAppear(completion: { bloodSugar, direction in
+        DexcomService.shared.onAppear(completion: { bloodSugar, direction, date in
             var trend = ""
             switch context.family {
             case .systemSmall, .accessoryCircular:

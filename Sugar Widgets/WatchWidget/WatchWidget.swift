@@ -11,26 +11,26 @@ import SwiftUI
 struct Provider: TimelineProvider {
     func placeholder(in context: Context) -> SimpleEntry {
         var entry: SimpleEntry?
-        let defaultEntry = SimpleEntry(value: 120, trend: "")
+        let defaultEntry = SimpleEntry(value: 0, trend: nil)
         switch context.family {
         case .accessoryCorner, .accessoryCircular:
-            let entry = SimpleEntry(value: 120, trend:  LatestGlucoseValues.TrendDirections.DoubleUp.arrow)
-        case .accessoryRectangular,.accessoryInline:
+            entry = SimpleEntry(value: 0, trend: nil)
+        case .accessoryRectangular, .accessoryInline:
             entry = defaultEntry
         @unknown default:
             entry = defaultEntry
         }
         return entry ?? defaultEntry
     }
-
+    
     func getSnapshot(in context: Context, completion: @escaping (SimpleEntry) -> ()) {
-        DexcomService().onAppear(completion: { bloodSugar, direction in
+        DexcomService.shared.onAppear(completion: { bloodSugar, direction, date in
             var entry: SimpleEntry?
-            let defaultEntry = SimpleEntry(value: bloodSugar, trend: "")
+            let defaultEntry = SimpleEntry(value: bloodSugar, trend: direction.arrow)
             switch context.family {
-            case .accessoryCorner,.accessoryCircular:
-                let entry = SimpleEntry(value: bloodSugar, trend: direction.arrow)
-            case .accessoryRectangular,.accessoryInline:
+            case .accessoryCorner, .accessoryCircular:
+                entry = SimpleEntry(value: bloodSugar, trend: nil)
+            case .accessoryRectangular, .accessoryInline:
                 entry = defaultEntry
             @unknown default:
                 entry = defaultEntry
@@ -38,10 +38,20 @@ struct Provider: TimelineProvider {
             completion(entry ?? defaultEntry)
         })
     }
-
+    
     func getTimeline(in context: Context, completion: @escaping (Timeline<Entry>) -> ()) {
-        DexcomService().onAppear(completion: { bloodSugar, direction in
-            let entry = SimpleEntry(value: bloodSugar, trend: direction.arrow)
+        DexcomService.shared.onAppear(completion: { bloodSugar, direction, date in
+            var trend: String?
+            
+            switch context.family {
+            case .accessoryCorner, .accessoryCircular:
+                trend = nil
+            case .accessoryRectangular, .accessoryInline:
+                trend = direction.arrow
+            @unknown default:
+                trend = direction.arrow
+            }
+            let entry = SimpleEntry(value: bloodSugar, trend: trend)
             let timeline = Timeline(entries: [entry], policy: .atEnd)
             completion(timeline)
         })
@@ -51,22 +61,27 @@ struct Provider: TimelineProvider {
 struct SimpleEntry: TimelineEntry {
     var date: Date = Date()
     let value: Int
-    let trend: String
+    let trend: String?
 }
 
 struct SugarWidgets_watchEntryView : View {
     var entry: Provider.Entry
-
+    
     var body: some View {
-        Text("\(entry.trend) \(entry.value)")
-            .font(.largeTitle)
+        if let trend = entry.trend {
+            Text("\(trend) \(entry.value)")
+                .font(.largeTitle)
+        } else {
+            Text("\(entry.value)")
+                .font(.largeTitle)
+        }
     }
 }
 
 @main
 struct SugarWidgets_watch: Widget {
     let kind: String = "SugarWidgets_watch"
-
+    
     var body: some WidgetConfiguration {
         StaticConfiguration(kind: kind, provider: Provider()) { entry in
             SugarWidgets_watchEntryView(entry: entry)

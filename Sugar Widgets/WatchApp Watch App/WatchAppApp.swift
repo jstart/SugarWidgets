@@ -11,7 +11,7 @@ import SwiftUI
 struct WatchApp_Watch_AppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView(bloodSugar: 0, trend: "")
+            ContentView()
         }
     }
 }
